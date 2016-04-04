@@ -14,6 +14,7 @@ h1 {
   font-size: 2em;
 }
 #content {
+  // this breaks safai on OSX and display: -webkit-flex; doesn't help either
   // display: flex;
   width: 1100px;
   margin: 60px auto;
